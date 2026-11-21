@@ -1,6 +1,6 @@
 # Canvas de Proposta de Valor
 
-> **Origem**: quadro da dinâmica D² ([proposta de valor.jpeg](proposta%20de%20valor.jpeg))
+> **Origem**: quadro da dinâmica D² ([proposta-de-valor.jpeg](proposta-de-valor.jpeg))
 
 | Mapa de valor | Perfil do cliente |
 |---|---|

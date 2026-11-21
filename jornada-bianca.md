@@ -79,7 +79,7 @@ A jornada começa com vontade, mas esbarra na falta de informação. A inscriç�
 
 ## 4. Oportunidades consolidadas
 
-| # | Oportunidade | Fase | Dor que resolve | Objetivo de negócio ([problematica.md](problematica.md)) |
+| # | Oportunidade | Fase | Dor que resolve | Objetivo de negócio ([problematica.md](problematica-objetivos.md)) |
 |---|---|---|---|---|
 | 1 | **Calendário centralizado de corridas** (atual e próximas) | Entrada + Evasão | Falta de informação | 1. Recorrência |
 | 2 | **Facilitar a disponibilização do kit** | Engajamento | Preocupação com a retirada | 2. Experiência do kit |

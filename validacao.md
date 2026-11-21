@@ -1,7 +1,7 @@
 # CorreAki · Teste exploratório com persona sintética (Bianca, iniciante, Mogi das Cruzes)
 
 > **Protótipo**: [corre-aki.lovable.app](https://corre-aki.lovable.app/) · **Data**: 21/11/2026
-> **Origem**: [quadrante-correaki.png](quadrante-correaki.png)
+> **Origem**: [validacao.png](validacao.png)
 > ⚠️ Simulação: não substitui teste com usuárias reais.
 
 ---

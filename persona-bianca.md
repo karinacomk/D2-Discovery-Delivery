@@ -110,7 +110,7 @@ Como analista de dados, **pesquisa antes de decidir**: compara opções na inter
 
 ## 9. Conexão com os objetivos de negócio
 
-| Objetivo (ver [problematica.md](problematica.md)) | Por que a Bianca importa |
+| Objetivo (ver [problematica.md](problematica-objetivos.md)) | Por que a Bianca importa |
 |---|---|
 | **1. Recorrência de 50% em 12 meses** | Como iniciante, ela decide na primeira prova se continua. Acertar a primeira experiência é a alavanca de recorrência. |
 | **2. Fidelizar pela boa experiência do kit** | O kit é o ponto de maior atrito da jornada dela, por morar fora de SP. |
