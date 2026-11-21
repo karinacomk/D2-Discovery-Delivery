@@ -3,7 +3,7 @@
 > **Produto**: plataforma B2C, web e app mobile, para corredores de rua encontrarem corridas de vários organizadores, se inscreverem e receberem ou retirarem o kit.
 > **Momento**: validação · foco em aquisição, depois retenção.
 > **Metas (6 a 12 meses)**: recorrência de 50% em 12 meses · fidelizar pela experiência do kit · jornada de inscrição acessível para corredores PCD.
-> **Base das fórmulas**: catálogo de métricas D² (`base-metricas.xlsx`).
+> **Base das fórmulas**: catálogo de métricas D² ([Lista de Métricas - Product Management.xlsx](materiais/Lista%20de%20M%C3%A9tricas%20-%20Product%20Management.xlsx)).
 > **Preview do dashboard**: [dashboard-heart-correaki.png](dashboard-heart-correaki.png) (dados simulados).
 
 ---
