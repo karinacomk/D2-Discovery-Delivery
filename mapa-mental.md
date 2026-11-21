@@ -1,0 +1,38 @@
+# RunJourney
+
+- Acesso
+  - Criação de usuário e senha
+  - Esqueci senha
+  - Logout
+- Legal
+  - Termos de uso
+  - LGPD
+- Calendário e Buscas
+  - Filtros de local, data e distância
+  - Filtro de texto
+  - Área de detalhes da prova
+- Inscrições
+  - Dados de local de entrega ou retirada
+  - Cancelamento de inscrição
+  - Transferência de titularidade
+  - Histórico da jornada da corrida inscrita
+- Perfil do Usuário
+  - Dados pessoais
+  - Objetivos no esporte
+  - Histórico de corridas
+  - Parametrização PCD
+  - Pontuação e ranking
+  - Cancelar conta
+- Checkout
+  - Dados de pagamento
+  - Integrações com meios de pagamento
+  - Validação de dados de pagamento
+  - Aplicação de descontos
+  - Valor de frete
+- Notificações
+  - Alertas de entrega
+  - Alertas de compra
+  - Alertas de alteração de cadastro
+  - Alerta de cancelamento
+  - Configuração de alertas
+  - Avisos com informações da prova
