@@ -27,6 +27,9 @@
 | 4 | Gera notificação ao alterar dados? | Não nesta história (cartão da Onda 10) | RN12 |
 | 5 | Salvamento parcial se um campo for inválido? | Tudo ou nada *(proposta pelo agente)* | RN11 |
 | 6 | Quem pode ver e alterar? | Só o próprio corredor, validado também no servidor *(proposta pelo agente)* | RN01 |
+| 7 | Edição em dois aparelhos ao mesmo tempo *(levantada na spec)* | Recusa o salvamento desatualizado e pede para recarregar | RN14 |
+| 8 | Limite de pedidos de troca de e-mail *(levantada na spec)* | No máximo 5 por hora | RN15 |
+| 9 | O link de confirmação exige login? *(levantada na spec)* | Não, funciona em qualquer aparelho | RN15 |
 
 ## Pendências
 1. **Textos propostos pelo agente, precisam de validação**: todas as mensagens da seção 5 e as mensagens de sucesso e de troca de e-mail.
@@ -35,4 +38,4 @@
 4. **Divergências do protótipo**: o Lovable mostra o CPF editável, não tem botão de salvar visível, não tem "Prefiro não informar" em Sexo e não tem XGG na camiseta. O protótipo precisa ser ajustado.
 5. **"Prefiro não informar" × categorias por sexo**: se a prova premia por categoria de sexo, o que a inscrição pede? Precisa de decisão de produto (impacta o passo 2 da inscrição).
 6. **Menores de 18 anos**: ficam fora do produto. Validar com o grupo se há provas infantis ou juvenis no escopo.
-7. **Dúvida técnica**: como o servidor guarda o e-mail pendente de confirmação e o que acontece se o corredor pedir a troca duas vezes (sugestão: vale o último pedido).
+7. ~~**Dúvida técnica**: pedido de troca de e-mail duas vezes.~~ Resolvida na [spec](00%20%5BPerfil%5D%20Dados%20pessoais.spec.md): vale o último pedido, e os anteriores são invalidados.

@@ -28,6 +28,8 @@
 | RN11 | SAV-04 |
 | RN12 | SAV-05 |
 | RN13 | A11Y-01, A11Y-02 |
+| RN14 · Cenário 8 | SAV-07 |
+| RN15 | EML-05, EML-06 |
 | Cenário 1 | SAV-01 |
 | Falha de conexão | SAV-06 |
 
@@ -75,6 +77,10 @@
 - **Dado** que o servidor não responde · **Quando** salva · **Então** exibe *"Não foi possível salvar agora. Tente novamente."* e os dados digitados continuam na tela.
 - Ref: Seção 5
 
+**SAV-07** 🔴 Edição em dois aparelhos
+- **Dado** a tela aberta no computador e uma alteração salva depois pelo celular · **Quando** salva pelo computador · **Então** exibe *"Seus dados foram alterados em outro acesso. Recarregue a página."* e mantém os dados do celular.
+- Ref: RN14, Cenário 8
+
 ### EML · Troca de e-mail
 **EML-01** 🔴 Pedido de troca
 - **Dado** um e-mail novo e livre · **Quando** salva · **Então** envia o link ao novo e-mail, avisa o antigo, exibe a mensagem de confirmação, e o login continua no e-mail antigo.
@@ -91,6 +97,14 @@
 **EML-04** 🔴 E-mail em uso
 - **Dado** um e-mail já usado por outra conta · **Quando** salva · **Então** exibe *"Este e-mail não pode ser usado. Tente outro."* sem revelar a outra conta.
 - Ref: RN04
+
+**EML-05** 🟡 Limite de pedidos
+- **Dado** 5 pedidos de troca na última hora · **Quando** faz o 6º · **Então** exibe *"Você fez muitos pedidos de troca de e-mail. Tente de novo mais tarde."* e não envia link.
+- Ref: RN15
+
+**EML-06** 🟡 Link sem login e pedido substituído
+- **Dado** o link aberto em outro aparelho, sem login · **Então** a troca é confirmada. **Dado** dois pedidos seguidos · **Quando** abre o link do primeiro · **Então** exibe *"Este link expirou..."*.
+- Ref: RN15, RN03
 
 ### SEG · Acesso
 **SEG-01** 🔴 Dados de outra conta

@@ -83,6 +83,8 @@ flowchart TD
 *   **RN11**: se algum campo for inválido, nada é salvo (o salvamento é tudo ou nada, exceto o e-mail, que segue a RN03).
 *   **RN12**: esta história não gera notificação de alteração de cadastro. Isso é o cartão "Alertas de alteração de cadastro" da Onda 10.
 *   **RN13**: LGPD e acessibilidade: dados pessoais não aparecem em logs; todo campo tem rótulo lido por leitor de tela; erros são anunciados e ficam ligados ao campo (WCAG 2.1 AA, conforme o [DoD](../dor-dod.md)).
+*   **RN14**: se os dados foram salvos em outro acesso (ex.: no celular) depois que a tela foi aberta, o salvamento é recusado e o corredor é avisado para recarregar, sem sobrescrever o que já foi salvo.
+*   **RN15**: o corredor pode pedir no máximo 5 trocas de e-mail por hora. O link de confirmação funciona sem login, inclusive em outro aparelho.
 
 ---
 
@@ -94,6 +96,8 @@ flowchart TD
 *   **Menor de 18 anos**: *"É preciso ter 18 anos ou mais para usar o CorreAki."*
 *   **Data futura ou acima de 100 anos**: *"Informe uma data de nascimento válida."*
 *   **Link de confirmação expirado**: *"Este link expirou. Peça a troca de e-mail de novo no seu perfil."*
+*   **Dados alterados em outro acesso**: *"Seus dados foram alterados em outro acesso. Recarregue a página."*
+*   **Limite de trocas de e-mail**: *"Você fez muitos pedidos de troca de e-mail. Tente de novo mais tarde."*
 *   **Falha de conexão ao salvar**: *"Não foi possível salvar agora. Tente novamente."* Os dados digitados continuam na tela.
 
 ---
@@ -136,9 +140,15 @@ flowchart TD
 *   **Quando** ele tenta sair da tela.
 *   **Então** o sistema pergunta *"Descartar alterações?"*, e só descarta se ele escolher "Descartar".
 
+#### Cenário 8: Edição em dois aparelhos
+*   **Dado** que o corredor abriu Dados pessoais no computador e depois salvou uma alteração pelo celular.
+*   **Quando** ele tenta salvar pelo computador.
+*   **Então** o sistema recusa e exibe *"Seus dados foram alterados em outro acesso. Recarregue a página."*, mantendo o que foi salvo no celular.
+
 ---
 
 ## 📎 Arquivos que acompanham a história
 - [00 [Perfil] Dados pessoais.grillme.md](00%20%5BPerfil%5D%20Dados%20pessoais.grillme.md): decisões, rodada do grill-me e pendências.
+- [00 [Perfil] Dados pessoais.spec.md](00%20%5BPerfil%5D%20Dados%20pessoais.spec.md): especificação técnica.
 - [00 [Perfil] Dados pessoais.teste.md](00%20%5BPerfil%5D%20Dados%20pessoais.teste.md): matriz de rastreabilidade e casos de teste.
 - [imagens/](imagens/): print do protótipo.
