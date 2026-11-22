@@ -54,6 +54,7 @@ Os documentos seguem a ordem da dinâmica. Cada quadro tem a foto (`.jpeg`/`.png
 |---|---|
 | [ondas.md](ondas.md) | Sequenciador de ondas de entrega |
 | [roadmap.md](roadmap.md) | Roadmap 2027 ([roadmap-correaki.png](roadmap-correaki.png)) |
+| [dor-dod.md](dor-dod.md) | Definition of Ready e Definition of Done |
 | [metricas-heart-correaki.md](metricas-heart-correaki.md) | Métricas HEART e dashboard executivo ([dashboard-heart-correaki.png](dashboard-heart-correaki.png) · [dashboard-executivo-correaki.jpeg](dashboard-executivo-correaki.jpeg)) |
 
 ### 5. Protótipo e validação
